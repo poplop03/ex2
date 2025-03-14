@@ -13,16 +13,21 @@ k = 1
 mat1 = [[1,2],[3,4]]
 mat2 = [[2,4],[3,6]]
 
+
+matA = np.matrix('1 2; 3 4')
+matB = np.matrix('2 4; 3 6')
+
+
 result = [[0,0],[0,0]]
 
 def perceptron_nn():
     print("perceptron start")
 
 
-def multiply_2x2_vec():
-    for i in range 2:
-        for j in range 2:
-            result[i][j] = mat1[i][]
+# def multiply_2x2_vec():
+#     for i in range 2:
+#         for j in range 2:
+#             result[i][j] = mat1[i][]
 
 
-print(mat1[0][0])
+print(matA*matB)
